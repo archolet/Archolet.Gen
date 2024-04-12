@@ -1,0 +1,12 @@
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\bin\Debug\net8.0\Core.ConsoleUI.deps.json
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\bin\Debug\net8.0\Core.ConsoleUI.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\bin\Debug\net8.0\Core.ConsoleUI.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.csproj.AssemblyReference.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.AssemblyInfoInputs.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.AssemblyInfo.cs
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.csproj.CoreCompileInputs.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\refint\Core.ConsoleUI.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\Core.ConsoleUI.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.ConsoleUI\obj\Debug\net8.0\ref\Core.ConsoleUI.dll

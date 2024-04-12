@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ktwFWHYk2x4Ank9VnG87GLr7VEHVOxJrJGWhmCMk1I771gREhLxmDSHVus4SXM/kro1kHcgicoRnsQ5odRR0Rg==",
+  "success": true,
+  "projectFilePath": "C:\\CodeGenerator\\Archolet.Gen\\src\\corePackages\\Core.ConsoleUI\\Core.ConsoleUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\spectre.console\\0.48.0\\spectre.console.0.48.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\spectre.console.cli\\0.48.0\\spectre.console.cli.0.48.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

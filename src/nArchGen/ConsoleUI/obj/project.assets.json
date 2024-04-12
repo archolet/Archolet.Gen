@@ -1,0 +1,731 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MediatR/12.2.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "PluralizeService.Core/1.2.21147.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/PluralizeService.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/PluralizeService.Core.dll": {}
+        }
+      },
+      "Scriban/5.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Scriban.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Scriban.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Spectre.Console/0.48.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Spectre.Console.Cli/0.48.0": {
+        "type": "package",
+        "dependencies": {
+          "Spectre.Console": "0.48.0"
+        },
+        "compile": {
+          "lib/net8.0/Spectre.Console.Cli.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Spectre.Console.Cli.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net8.0/de/Spectre.Console.Cli.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/fr/Spectre.Console.Cli.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/sv/Spectre.Console.Cli.resources.dll": {
+            "locale": "sv"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core.Application": "1.0.0",
+          "Core.CodeGen": "1.0.0",
+          "Core.CrossCuttingConcerns": "1.0.0",
+          "Domain": "1.0.0",
+          "MediatR": "12.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Core.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Core.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Application.dll": {}
+        }
+      },
+      "Core.CodeGen/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core.CrossCuttingConcerns": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "PluralizeService.Core": "1.2.21147.2",
+          "Scriban": "5.9.1"
+        },
+        "compile": {
+          "bin/placeholder/Core.CodeGen.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.CodeGen.dll": {}
+        }
+      },
+      "Core.ConsoleUI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Spectre.Console.Cli": "0.48.0"
+        },
+        "compile": {
+          "bin/placeholder/Core.ConsoleUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.ConsoleUI.dll": {}
+        }
+      },
+      "Core.CrossCuttingConcerns/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Core.CrossCuttingConcerns.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.CrossCuttingConcerns.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core.CodeGen": "1.0.0",
+          "Core.CrossCuttingConcerns": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/12.2.0": {
+      "sha512": "8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+      "type": "package",
+      "path": "mediatr/12.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.2.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.0": {
+      "sha512": "V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "PluralizeService.Core/1.2.21147.2": {
+      "sha512": "WcPxEg6bjNYSQDWSYlAC6sPRk7vyy4KZX/e8R7PeainOvsNvfL2ABis2HxBwEgPPoJ4P+hSp7/mb5xX3oP8h4w==",
+      "type": "package",
+      "path": "pluralizeservice.core/1.2.21147.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Logo_IT_Masters.png",
+        "lib/netstandard2.1/PluralizeService.Core.dll",
+        "pluralizeservice.core.1.2.21147.2.nupkg.sha512",
+        "pluralizeservice.core.nuspec"
+      ]
+    },
+    "Scriban/5.9.1": {
+      "sha512": "Er0jZCXrHXtk+nnzmHVEnmz1pjfU+VL3GppO0UjtCMoZ0Se1plyPe1OLb6gM7ToSRA7nu/QIcdRFr29x8w8rQQ==",
+      "type": "package",
+      "path": "scriban/5.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Scriban.props",
+        "build/Scriban.targets",
+        "lib/net7.0/Scriban.dll",
+        "lib/net7.0/Scriban.xml",
+        "lib/netstandard2.0/Scriban.dll",
+        "lib/netstandard2.0/Scriban.xml",
+        "readme.md",
+        "scriban.5.9.1.nupkg.sha512",
+        "scriban.nuspec",
+        "scriban.png",
+        "src/Scriban/.editorconfig",
+        "src/Scriban/Functions/ArrayFunctions.cs",
+        "src/Scriban/Functions/BuiltinFunctions.cs",
+        "src/Scriban/Functions/DateTimeFunctions.cs",
+        "src/Scriban/Functions/HtmlFunctions.cs",
+        "src/Scriban/Functions/IncludeFunction.cs",
+        "src/Scriban/Functions/LiquidBuiltinsFunctions.cs",
+        "src/Scriban/Functions/MathFunctions.cs",
+        "src/Scriban/Functions/ObjectFunctions.cs",
+        "src/Scriban/Functions/RegexFunctions.cs",
+        "src/Scriban/Functions/StringFunctions.cs",
+        "src/Scriban/Functions/TimeSpanFunctions.cs",
+        "src/Scriban/Helpers/BoxHelper.cs",
+        "src/Scriban/Helpers/CharHelper.cs",
+        "src/Scriban/Helpers/FastStack.cs",
+        "src/Scriban/Helpers/InlineList.cs",
+        "src/Scriban/Helpers/ReflectionHelper.cs",
+        "src/Scriban/Helpers/StringHelper.cs",
+        "src/Scriban/Helpers/ThrowHelper.cs",
+        "src/Scriban/LogMessageBag.cs",
+        "src/Scriban/Parsing/Lexer.cs",
+        "src/Scriban/Parsing/LexerOptions.cs",
+        "src/Scriban/Parsing/LogMessage.cs",
+        "src/Scriban/Parsing/Parser.Expressions.cs",
+        "src/Scriban/Parsing/Parser.Statements.Liquid.cs",
+        "src/Scriban/Parsing/Parser.Statements.Scriban.cs",
+        "src/Scriban/Parsing/Parser.Statements.cs",
+        "src/Scriban/Parsing/Parser.Terminals.cs",
+        "src/Scriban/Parsing/Parser.cs",
+        "src/Scriban/Parsing/ParserOptions.cs",
+        "src/Scriban/Parsing/ScriptLang.cs",
+        "src/Scriban/Parsing/ScriptMode.cs",
+        "src/Scriban/Parsing/SourceSpan.cs",
+        "src/Scriban/Parsing/TextPosition.cs",
+        "src/Scriban/Parsing/Token.cs",
+        "src/Scriban/Parsing/TokenTextAttribute.cs",
+        "src/Scriban/Parsing/TokenType.cs",
+        "src/Scriban/Parsing/TokenTypeExtensions.cs",
+        "src/Scriban/Parsing/Util.cs",
+        "src/Scriban/Runtime/Accessors/ArrayAccessor.cs",
+        "src/Scriban/Runtime/Accessors/DictionaryAccessor.cs",
+        "src/Scriban/Runtime/Accessors/ListAccessor.cs",
+        "src/Scriban/Runtime/Accessors/NullAccessor.cs",
+        "src/Scriban/Runtime/Accessors/PrimitiveAccessor.cs",
+        "src/Scriban/Runtime/Accessors/ScriptObjectAccessor.cs",
+        "src/Scriban/Runtime/Accessors/StringAccessor.cs",
+        "src/Scriban/Runtime/Accessors/TypedObjectAccessor.cs",
+        "src/Scriban/Runtime/CustomFunction.Generated.cs",
+        "src/Scriban/Runtime/DelegateCustomFunction.cs",
+        "src/Scriban/Runtime/DynamicCustomFunction.cs",
+        "src/Scriban/Runtime/EmptyScriptObject.cs",
+        "src/Scriban/Runtime/IListAccessor.cs",
+        "src/Scriban/Runtime/IObjectAccessor.cs",
+        "src/Scriban/Runtime/IScriptCustomFunction.cs",
+        "src/Scriban/Runtime/IScriptObject.cs",
+        "src/Scriban/Runtime/IScriptOutput.cs",
+        "src/Scriban/Runtime/IScriptTransformable.cs",
+        "src/Scriban/Runtime/ITemplateLoader.cs",
+        "src/Scriban/Runtime/MemberFilterDelegate.cs",
+        "src/Scriban/Runtime/MemberRenamerDelegate.cs",
+        "src/Scriban/Runtime/ScriptArray.cs",
+        "src/Scriban/Runtime/ScriptLazy.cs",
+        "src/Scriban/Runtime/ScriptMemberIgnoreAttribute.cs",
+        "src/Scriban/Runtime/ScriptMemberImportFlags.cs",
+        "src/Scriban/Runtime/ScriptObject.cs",
+        "src/Scriban/Runtime/ScriptObjectExtensions.cs",
+        "src/Scriban/Runtime/ScriptPipeArguments.cs",
+        "src/Scriban/Runtime/ScriptRange.cs",
+        "src/Scriban/Runtime/StandardMemberRenamer.cs",
+        "src/Scriban/Runtime/StringBuilderOutput.cs",
+        "src/Scriban/Runtime/TextWriterOutput.cs",
+        "src/Scriban/ScribanAsync.generated.cs",
+        "src/Scriban/ScribanVisitors.generated.cs",
+        "src/Scriban/ScriptPrinter.cs",
+        "src/Scriban/ScriptPrinterOptions.cs",
+        "src/Scriban/Syntax/Expressions/IScriptTerminal.cs",
+        "src/Scriban/Syntax/Expressions/ScriptAnonymousFunction.cs",
+        "src/Scriban/Syntax/Expressions/ScriptArgumentBinary.cs",
+        "src/Scriban/Syntax/Expressions/ScriptArrayInitializerExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptAssignExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptBinaryExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptBinaryOperator.cs",
+        "src/Scriban/Syntax/Expressions/ScriptConditionalExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptFunctionCall.cs",
+        "src/Scriban/Syntax/Expressions/ScriptIncrementDecrementExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptIndexerExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptInterpolatedExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptIsEmptyExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptLiteral.cs",
+        "src/Scriban/Syntax/Expressions/ScriptMemberExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptNamedArgument.cs",
+        "src/Scriban/Syntax/Expressions/ScriptNestedExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptObjectInitializerExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptObjectMember.cs",
+        "src/Scriban/Syntax/Expressions/ScriptPipeCall.cs",
+        "src/Scriban/Syntax/Expressions/ScriptThisExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptUnaryExpression.cs",
+        "src/Scriban/Syntax/Expressions/ScriptUnaryOperator.cs",
+        "src/Scriban/Syntax/Expressions/ScriptVariable.cs",
+        "src/Scriban/Syntax/Expressions/ScriptVariableScope.cs",
+        "src/Scriban/Syntax/IScriptConvertibleFrom.cs",
+        "src/Scriban/Syntax/IScriptConvertibleTo.cs",
+        "src/Scriban/Syntax/IScriptCustomBinaryOperation.cs",
+        "src/Scriban/Syntax/IScriptCustomImplicitMultiplyPrecedence.cs",
+        "src/Scriban/Syntax/IScriptCustomType.cs",
+        "src/Scriban/Syntax/IScriptCustomTypeInfo.cs",
+        "src/Scriban/Syntax/IScriptCustomUnaryOperation.cs",
+        "src/Scriban/Syntax/IScriptNamedArgumentContainer.cs",
+        "src/Scriban/Syntax/IScriptVariablePath.cs",
+        "src/Scriban/Syntax/IScriptVisitorContext.cs",
+        "src/Scriban/Syntax/ScientificFunctionCallRewriter.cs",
+        "src/Scriban/Syntax/ScriptArgumentException.cs",
+        "src/Scriban/Syntax/ScriptCloner.cs",
+        "src/Scriban/Syntax/ScriptFormatter.cs",
+        "src/Scriban/Syntax/ScriptFormatterExtensions.cs",
+        "src/Scriban/Syntax/ScriptFormatterFlags.cs",
+        "src/Scriban/Syntax/ScriptFormatterOptions.cs",
+        "src/Scriban/Syntax/ScriptFrontMatter.cs",
+        "src/Scriban/Syntax/ScriptIdentifier.cs",
+        "src/Scriban/Syntax/ScriptKeyword.cs",
+        "src/Scriban/Syntax/ScriptList.cs",
+        "src/Scriban/Syntax/ScriptNode.cs",
+        "src/Scriban/Syntax/ScriptNodeExtensions.cs",
+        "src/Scriban/Syntax/ScriptPage.cs",
+        "src/Scriban/Syntax/ScriptParameterContainerExtensions.cs",
+        "src/Scriban/Syntax/ScriptRewriter.cs",
+        "src/Scriban/Syntax/ScriptRuntimeException.cs",
+        "src/Scriban/Syntax/ScriptStringSlice.cs",
+        "src/Scriban/Syntax/ScriptSyntaxAttribute.cs",
+        "src/Scriban/Syntax/ScriptToken.cs",
+        "src/Scriban/Syntax/ScriptTrivia.cs",
+        "src/Scriban/Syntax/ScriptTriviaType.cs",
+        "src/Scriban/Syntax/ScriptTriviaTypeExtensions.cs",
+        "src/Scriban/Syntax/ScriptTrivias.cs",
+        "src/Scriban/Syntax/ScriptVerbatim.cs",
+        "src/Scriban/Syntax/ScriptVisitor.cs",
+        "src/Scriban/Syntax/Statements/ScriptBlockStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptBreakStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptCaptureStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptCaseStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptConditionStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptContinueStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptElseStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptEndStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptEscapeStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptExpressionStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptFlowState.cs",
+        "src/Scriban/Syntax/Statements/ScriptForStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptFunction.cs",
+        "src/Scriban/Syntax/Statements/ScriptIfStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptImportStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptLoopStatementBase.cs",
+        "src/Scriban/Syntax/Statements/ScriptNopStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptParameter.cs",
+        "src/Scriban/Syntax/Statements/ScriptRawStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptReadOnlyStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptReturnStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptTableRowStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWhenStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWhileStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWhitespaceMode.cs",
+        "src/Scriban/Syntax/Statements/ScriptWithStatement.cs",
+        "src/Scriban/Syntax/Statements/ScriptWrapStatement.cs",
+        "src/Scriban/Template.cs",
+        "src/Scriban/TemplateContext.Helpers.cs",
+        "src/Scriban/TemplateContext.Variables.cs",
+        "src/Scriban/TemplateContext.cs"
+      ]
+    },
+    "Spectre.Console/0.48.0": {
+      "sha512": "4Mc1UT7Azgtyb8FyNwK5FZmoZbKuT5PmY7ZwaKUytjD5kGFMNBACpOZTwYtkuY377YkYtZYBeDDTJUwTW86QXw==",
+      "type": "package",
+      "path": "spectre.console/0.48.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/net7.0/Spectre.Console.dll",
+        "lib/net7.0/Spectre.Console.xml",
+        "lib/net8.0/Spectre.Console.dll",
+        "lib/net8.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.48.0.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
+    "Spectre.Console.Cli/0.48.0": {
+      "sha512": "HNoDxAOTODQ9h+4K5Cs2caW8kIicRKw5SS4vgEEkJtnTp7/4XR8OIGvCjVi09w3m+xn4lTlkS0ENy2ktGz4HRw==",
+      "type": "package",
+      "path": "spectre.console.cli/0.48.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.Cli.dll",
+        "lib/net6.0/Spectre.Console.Cli.xml",
+        "lib/net6.0/de/Spectre.Console.Cli.resources.dll",
+        "lib/net6.0/fr/Spectre.Console.Cli.resources.dll",
+        "lib/net6.0/sv/Spectre.Console.Cli.resources.dll",
+        "lib/net7.0/Spectre.Console.Cli.dll",
+        "lib/net7.0/Spectre.Console.Cli.xml",
+        "lib/net7.0/de/Spectre.Console.Cli.resources.dll",
+        "lib/net7.0/fr/Spectre.Console.Cli.resources.dll",
+        "lib/net7.0/sv/Spectre.Console.Cli.resources.dll",
+        "lib/net8.0/Spectre.Console.Cli.dll",
+        "lib/net8.0/Spectre.Console.Cli.xml",
+        "lib/net8.0/de/Spectre.Console.Cli.resources.dll",
+        "lib/net8.0/fr/Spectre.Console.Cli.resources.dll",
+        "lib/net8.0/sv/Spectre.Console.Cli.resources.dll",
+        "lib/netstandard2.0/Spectre.Console.Cli.dll",
+        "lib/netstandard2.0/Spectre.Console.Cli.xml",
+        "lib/netstandard2.0/de/Spectre.Console.Cli.resources.dll",
+        "lib/netstandard2.0/fr/Spectre.Console.Cli.resources.dll",
+        "lib/netstandard2.0/sv/Spectre.Console.Cli.resources.dll",
+        "small-logo.png",
+        "spectre.console.cli.0.48.0.nupkg.sha512",
+        "spectre.console.cli.nuspec"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
+    "Core.Application/1.0.0": {
+      "type": "project",
+      "path": "../../corePackages/Core.Application/Core.Application.csproj",
+      "msbuildProject": "../../corePackages/Core.Application/Core.Application.csproj"
+    },
+    "Core.CodeGen/1.0.0": {
+      "type": "project",
+      "path": "../../corePackages/Core.CodeGen/Core.CodeGen.csproj",
+      "msbuildProject": "../../corePackages/Core.CodeGen/Core.CodeGen.csproj"
+    },
+    "Core.ConsoleUI/1.0.0": {
+      "type": "project",
+      "path": "../../corePackages/Core.ConsoleUI/Core.ConsoleUI.csproj",
+      "msbuildProject": "../../corePackages/Core.ConsoleUI/Core.ConsoleUI.csproj"
+    },
+    "Core.CrossCuttingConcerns/1.0.0": {
+      "type": "project",
+      "path": "../../corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj",
+      "msbuildProject": "../../corePackages/Core.CrossCuttingConcerns/Core.CrossCuttingConcerns.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Application >= 1.0.0",
+      "Core.ConsoleUI >= 1.0.0",
+      "MediatR >= 12.2.0",
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0",
+      "Spectre.Console >= 0.48.0",
+      "Spectre.Console.Cli >= 0.48.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\deneme\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.2.0",
+    "restore": {
+      "projectUniqueName": "C:\\CodeGenerator\\Archolet.Gen\\src\\nArchGen\\ConsoleUI\\ConsoleUI.csproj",
+      "projectName": "Archolet.Gen",
+      "projectPath": "C:\\CodeGenerator\\Archolet.Gen\\src\\nArchGen\\ConsoleUI\\ConsoleUI.csproj",
+      "packagesPath": "C:\\Users\\deneme\\.nuget\\packages\\",
+      "outputPath": "C:\\CodeGenerator\\Archolet.Gen\\src\\nArchGen\\ConsoleUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\deneme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\CodeGenerator\\Archolet.Gen\\src\\corePackages\\Core.ConsoleUI\\Core.ConsoleUI.csproj": {
+              "projectPath": "C:\\CodeGenerator\\Archolet.Gen\\src\\corePackages\\Core.ConsoleUI\\Core.ConsoleUI.csproj"
+            },
+            "C:\\CodeGenerator\\Archolet.Gen\\src\\nArchGen\\Application\\Application.csproj": {
+              "projectPath": "C:\\CodeGenerator\\Archolet.Gen\\src\\nArchGen\\Application\\Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.2.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.48.0, )"
+          },
+          "Spectre.Console.Cli": {
+            "target": "Package",
+            "version": "[0.48.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

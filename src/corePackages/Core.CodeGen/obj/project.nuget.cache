@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bJgUL+VPp4WdcNpnuy80/ZGYFgjVQPdzSlk6cFkZRpssZX5nnuu+YQ2n+4D7NSjfLPa3AJlSUEvQdPJ+wCuHFQ==",
+  "success": true,
+  "projectFilePath": "C:\\CodeGenerator\\Archolet.Gen\\src\\corePackages\\Core.CodeGen\\Core.CodeGen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\pluralizeservice.core\\1.2.21147.2\\pluralizeservice.core.1.2.21147.2.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\scriban\\5.9.1\\scriban.5.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}

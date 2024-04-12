@@ -1,0 +1,160 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Application/1.0.0": {
+        "dependencies": {
+          "Core.Application": "1.0.0",
+          "Core.CodeGen": "1.0.0",
+          "Core.CrossCuttingConcerns": "1.0.0",
+          "Domain": "1.0.0",
+          "MediatR": "12.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
+      "MediatR/12.2.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "PluralizeService.Core/1.2.21147.2": {
+        "runtime": {
+          "lib/netstandard2.1/PluralizeService.Core.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Scriban/5.9.1": {
+        "runtime": {
+          "lib/net7.0/Scriban.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.9.1.0"
+          }
+        }
+      },
+      "Core.Application/1.0.0": {
+        "runtime": {
+          "Core.Application.dll": {}
+        }
+      },
+      "Core.CodeGen/1.0.0": {
+        "dependencies": {
+          "Core.CrossCuttingConcerns": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "PluralizeService.Core": "1.2.21147.2",
+          "Scriban": "5.9.1"
+        },
+        "runtime": {
+          "Core.CodeGen.dll": {}
+        }
+      },
+      "Core.CrossCuttingConcerns/1.0.0": {
+        "runtime": {
+          "Core.CrossCuttingConcerns.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "dependencies": {
+          "Core.CodeGen": "1.0.0",
+          "Core.CrossCuttingConcerns": "1.0.0"
+        },
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediatR/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+      "path": "mediatr/12.2.0",
+      "hashPath": "mediatr.12.2.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "PluralizeService.Core/1.2.21147.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WcPxEg6bjNYSQDWSYlAC6sPRk7vyy4KZX/e8R7PeainOvsNvfL2ABis2HxBwEgPPoJ4P+hSp7/mb5xX3oP8h4w==",
+      "path": "pluralizeservice.core/1.2.21147.2",
+      "hashPath": "pluralizeservice.core.1.2.21147.2.nupkg.sha512"
+    },
+    "Scriban/5.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Er0jZCXrHXtk+nnzmHVEnmz1pjfU+VL3GppO0UjtCMoZ0Se1plyPe1OLb6gM7ToSRA7nu/QIcdRFr29x8w8rQQ==",
+      "path": "scriban/5.9.1",
+      "hashPath": "scriban.5.9.1.nupkg.sha512"
+    },
+    "Core.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.CodeGen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.CrossCuttingConcerns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

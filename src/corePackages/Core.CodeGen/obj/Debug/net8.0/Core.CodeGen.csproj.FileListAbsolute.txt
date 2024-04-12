@@ -1,0 +1,15 @@
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\bin\Debug\net8.0\Core.CodeGen.deps.json
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\bin\Debug\net8.0\Core.CodeGen.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\bin\Debug\net8.0\Core.CodeGen.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.csproj.AssemblyReference.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.AssemblyInfoInputs.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.AssemblyInfo.cs
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.csproj.CoreCompileInputs.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.csproj.CopyComplete
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\refint\Core.CodeGen.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\Core.CodeGen.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CodeGen\obj\Debug\net8.0\ref\Core.CodeGen.dll

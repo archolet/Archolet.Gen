@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "nfeh+spTkdu4rHR7jMDx31iUp0X9/tiA2wykm6DeV8NyfgONfOlYElYU2VCJWwAKzZ+y9LUrmr99G/DCD4f6JQ==",
+  "success": true,
+  "projectFilePath": "C:\\CodeGenerator\\Archolet.Gen\\src\\nArchGen\\ConsoleUI\\ConsoleUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deneme\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\pluralizeservice.core\\1.2.21147.2\\pluralizeservice.core.1.2.21147.2.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\scriban\\5.9.1\\scriban.5.9.1.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\spectre.console\\0.48.0\\spectre.console.0.48.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\spectre.console.cli\\0.48.0\\spectre.console.cli.0.48.0.nupkg.sha512",
+    "C:\\Users\\deneme\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

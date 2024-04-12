@@ -1,0 +1,11 @@
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.deps.json
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\bin\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.AssemblyInfo.cs
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\refint\Core.CrossCuttingConcerns.dll
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\Core.CrossCuttingConcerns.pdb
+C:\CodeGenerator\Archolet.Gen\src\corePackages\Core.CrossCuttingConcerns\obj\Debug\net8.0\ref\Core.CrossCuttingConcerns.dll
